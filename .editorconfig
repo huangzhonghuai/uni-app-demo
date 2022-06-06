@@ -1,0 +1,33 @@
+# http://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[package.json]
+indent_size = 2
+indent_style = space
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+
+[*.js,*.tx,*.tsx,*.vue]
+# 字符串使用单引号
+# quote_type = single
+
+[*.{html,less,css,json}]
+# 字符串使用双引号
+# quote_type = double
